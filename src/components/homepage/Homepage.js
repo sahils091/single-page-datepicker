@@ -1,12 +1,11 @@
 import React from "react";
 import "./homepage.scss";
-import Menu from "./menu/Menu";
+import Menu from "../Menu/Menu";
+import Header from "../Header/Header";
 const Homepage = () => {
   return (
     <div className="homepage">
-    <div className="homepage__menu-title--wrapper">
-          <h2 className="homepage__menu-title">LOGO HERE</h2>
-        </div>
+    <Header/>
       <div className="homepage__menu-wrapper">
         {/* Left Div  */}
         <Menu/>

@@ -1,0 +1,64 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+
+  &__title-wrapper {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2c6ee9;
+    margin-top: 1rem;
+    border-right: 1px solid lightgray;
+  }
+
+  &__content-wrapper {
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 1rem;
+    box-shadow: 0px 2px 1px lightgray;
+  }
+
+  &__profile-wrapper {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid lightgray;
+    height: 100%;
+    //margin-top: 0.5rem;
+  }
+  &__profile-img--wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+  }
+
+  &__profile-img {
+    background-image: url("../../assets/avatar.jpg");
+    border-radius: 50%;
+    height: 2rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  &__profile-details {
+    margin-right: 1rem;
+  }
+
+  &__profile-name {
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+  &__profile-company {
+    font-size: 11px;
+    font-weight: normal;
+    color: gray;
+  }
+}
