@@ -56,7 +56,7 @@ const Menu = () => {
 
           <li className="menu__item menu__item--setting">
             <i className="fas fa-cog"></i>
-            <p className=" menu__item--blurb">Settings</p>
+            <p className=" menu__item--blurb menu__item-setting">Settings</p>
             <div className="menu__item--hidden">hello</div>
           </li>
         </ul>

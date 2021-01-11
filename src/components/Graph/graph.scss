@@ -1,0 +1,48 @@
+@import "../../partials/variables";
+@import "../../partials/mixins";
+@import "../../partials/typography";
+
+.graph {
+  background-color: $main-bg;
+  padding: 1rem 1rem;
+  padding-right: 1rem;
+  border: 0.5px solid $divider-color;
+  box-shadow: 0px 2px 1px $divider-color;
+  z-index: 1;
+  &__datepicker-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+  &__title {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  &__detail-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    @include tablet {
+      width: 65%;
+    }
+  }
+  &__detail {
+    font-size: 1rem;
+    font-weight: bolder;
+    border-right: 1px solid $divider-color;
+    padding-right: 0.75rem;
+    &--last {
+      border-right: 0;
+    }
+  }
+  &__detail-type {
+    font-size: 0.8125rem;
+    font-weight: normal;
+    color: $label-color;
+  }
+
+  &__chart {
+    width: 100%;
+  }
+}
