@@ -4,7 +4,7 @@
 
 .banner {
   background-color: $page-bg;
-  padding: 2rem 2rem;
+  padding: 1rem 2rem;
   padding-bottom: 0;
 
   &__btn-wrapper {
@@ -23,6 +23,7 @@
     color: $main-bg;
     background-color: $accent-one;
     text-align: center;
+    cursor: pointer;
     @include tablet {
       width: 7rem;
       height: 2rem;
@@ -31,15 +32,14 @@
   &__attribute-wrapper {
     display: flex;
     flex-direction: column;
-    margin-top: 2rem;
+    margin-top: 1rem;
 
     flex-wrap: wrap;
     @include tablet {
       flex-direction: row;
       justify-content: space-between;
       align-items: center;
-
-      margin-bottom: 3rem;
+      margin-bottom: 1rem;
     }
   }
 

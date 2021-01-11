@@ -4,7 +4,6 @@
 
 .daterangepicker {
   position: absolute;
-  //   display: flex !important;
   flex-direction: row-reverse;
   color: inherit;
   background-color: #fff;
@@ -214,10 +213,10 @@
   padding-bottom: 2.5rem;
 }
 
-.dot {
-  height: 0.625rem;
-  width: 0.625rem;
-  background-color: #12bc00;
-  border-radius: 50%;
-  display: inline-block;
-}
+// .dot {
+//   height: 0.625rem;
+//   width: 0.625rem;
+//   background-color: #12bc00;
+//   border-radius: 50%;
+//   display: inline-block;
+// }
